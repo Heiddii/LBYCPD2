@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainpage.MainPageController">
+   <left>
+      <AnchorPane prefHeight="768.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35291f" height="772.0" layoutX="-13.0" layoutY="-3.0" stroke="#35291f" strokeType="INSIDE" width="329.0" />
+            <Label fx:id="labelActivities" layoutX="37.0" layoutY="213.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Activities" textFill="#94918e">
+            </Label>
+            <Button fx:id="buttonInquiry" alignment="CENTER" graphicTextGap="0.0" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="141.0" stylesheets="@main.css" text="Inquiry" textFill="#94918e" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonDatabase" alignment="CENTER" graphicTextGap="0.0" layoutX="18.0" layoutY="265.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="152.0" stylesheets="@main.css" text="Database" textFill="#94918e" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="171.0" fitWidth="171.0" layoutX="73.0" layoutY="24.0">
+               <image>
+                  <Image url="@Images/Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="120.0" layoutY="625.0">
+               <image>
+                  <Image url="@Images/Account.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="117.0" layoutY="694.0" style="-fx-font-size: 15;" text="Account #1" textFill="#94918e" />
+            <Button fx:id="buttonSignout" layoutX="115.0" layoutY="711.0" mnemonicParsing="false" onAction="#buttonSignoutOnAction" style="-fx-font-size: 15;" stylesheets="@main.css" text="Sign Out" textFill="#94918e" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#988f76" height="772.0" layoutX="5.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="1057.0" />
+            <ImageView fitHeight="592.0" fitWidth="1062.0" layoutX="4.0" layoutY="190.0">
+               <image>
+                  <Image url="@Images/Wave.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="60.0" prefHeight="62.0" prefWidth="230.0" text="Customer Name" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <TextField layoutX="66.0" layoutY="115.0" prefHeight="31.0" prefWidth="253.0" promptText="Firstname Lastname" stylesheets="@main.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="65.0" layoutY="150.0" prefHeight="62.0" prefWidth="230.0" text="Companion Count" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <TextField layoutX="66.0" layoutY="205.0" prefHeight="31.0" prefWidth="253.0" promptText="Number of Companions" stylesheets="@main.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="64.0" layoutY="244.0" prefHeight="62.0" prefWidth="230.0" text="Contact Number" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <TextField layoutX="65.0" layoutY="299.0" prefHeight="31.0" prefWidth="253.0" promptText="#########" stylesheets="@main.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Line endX="154.79998779296875" layoutX="166.0" layoutY="146.0" startX="-100.0" stroke="#1e1105" />
+            <Line endX="154.79998779296875" layoutX="166.0" layoutY="236.0" startX="-100.0" stroke="#1e1105" />
+            <Line endX="154.79998779296875" layoutX="164.0" layoutY="330.0" startX="-100.0" stroke="#1e1105" />
+            <Label layoutX="64.0" layoutY="352.0" prefHeight="62.0" prefWidth="105.0" text="Month" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <Label layoutX="66.0" layoutY="414.0" prefHeight="62.0" prefWidth="105.0" text="Date" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <Label layoutX="66.0" layoutY="476.0" prefHeight="62.0" prefWidth="105.0" text="Year" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <Label layoutX="65.0" layoutY="538.0" prefHeight="62.0" prefWidth="154.0" text="Time of Day" textFill="#1e1105">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow height="1.0" radius="0.25" width="2.0" />
+               </effect>
+            </Label>
+            <ComboBox fx:id="dropMonth" layoutX="228.0" layoutY="369.0" prefHeight="28.0" prefWidth="96.0" />
+            <ComboBox fx:id="dropDate" layoutX="228.0" layoutY="431.0" prefHeight="28.0" prefWidth="96.0" />
+            <ComboBox fx:id="dropYear" layoutX="228.0" layoutY="493.0" prefHeight="28.0" prefWidth="96.0" />
+            <ComboBox fx:id="dropTime" layoutX="228.0" layoutY="555.0" prefHeight="28.0" prefWidth="96.0" />
+            <ImageView layoutX="937.0" layoutY="676.0">
+               <image>
+                  <Image url="@Images/Logo2.png" />
+               </image>
+            </ImageView>
+            <VBox layoutX="372.0" layoutY="54.0" prefHeight="538.0" prefWidth="300.0" style="-fx-background-color: #695b4e; -fx-border-color: #f9ecdc;">
+               <children>
+                  <AnchorPane prefHeight="78.0" prefWidth="298.0" style="-fx-background-color: #35291f;">
+                     <children>
+                        <Label fx:id="labelActivities1" layoutX="14.0" layoutY="19.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Cottages" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="91.0" prefWidth="298.0">
+                     <children>
+                        <Label fx:id="labelActivities12" layoutX="24.0" layoutY="23.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Francis" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelActivities125" layoutX="24.0" layoutY="53.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="10-12 PAX" textFill="#f9ecdc">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Button alignment="TOP_LEFT" layoutX="140.0" layoutY="37.0" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: f9ecdc; -fx-text-fill: #101010;" text="+" textFill="#101010" />
+                        <Button alignment="TOP_LEFT" layoutX="221.0" layoutY="37.0" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" style="-fx-text-fill: #101010; -fx-background-color: f9ecdc;" text="-" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="91.0" prefWidth="298.0">
+                     <children>
+                        <Label fx:id="labelActivities121" layoutX="28.0" layoutY="20.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Simon" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelActivities1251" layoutX="28.0" layoutY="50.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="15-20 PAX" textFill="#f9ecdc">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Button alignment="TOP_LEFT" layoutX="139.0" layoutY="29.0" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: f9ecdc; -fx-text-fill: #101010;" text="+" textFill="#101010" />
+                        <Button alignment="TOP_LEFT" layoutX="220.0" layoutY="29.0" minHeight="-Infinity" minWidth="43.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="43.0" style="-fx-text-fill: #101010; -fx-background-color: f9ecdc;" text="-" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="91.0" prefWidth="298.0">
+                     <children>
+                        <Label fx:id="labelActivities122" layoutX="30.0" layoutY="22.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Fatima" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelActivities12511" layoutX="32.0" layoutY="53.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="6-8 PAX" textFill="#f9ecdc">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="91.0" prefWidth="298.0">
+                     <children>
+                        <Label fx:id="labelActivities123" layoutX="29.0" layoutY="20.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Miguel" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelActivities125111" layoutX="32.0" layoutY="50.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="8 PAX" textFill="#f9ecdc">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="92.0" prefWidth="298.0">
+                     <children>
+                        <Label fx:id="labelActivities124" layoutX="34.0" layoutY="22.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Gabriel" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelActivities125112" layoutX="37.0" layoutY="53.0" prefHeight="20.0" prefWidth="61.0" stylesheets="@main.css" text="6 PAX" textFill="#f9ecdc">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox layoutX="715.0" layoutY="54.0" prefHeight="538.0" prefWidth="300.0" style="-fx-background-color: #695b4e; -fx-border-color: #f9ecdc;">
+               <children>
+                  <AnchorPane prefHeight="77.0" prefWidth="298.0" style="-fx-background-color: #35291f;">
+                     <children>
+                        <Label fx:id="labelActivities11" layoutX="14.0" layoutY="19.0" prefHeight="5.0" prefWidth="134.0" stylesheets="@main.css" text="Rooms" textFill="#f9ecdc">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <Button layoutX="714.0" layoutY="600.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="301.0" style="-fx-background-color: #35291f; -fx-border-color: #f9ecdc; -fx-font-size: 27;" text="Submit" textFill="#f9ecdc">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

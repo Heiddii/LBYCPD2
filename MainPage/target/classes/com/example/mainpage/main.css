@@ -1,0 +1,26 @@
+.text-field {
+    -fx-background-color: Transparent;
+    -fx-text-fill: #eaeae9;
+}
+
+.button:hover{
+    -fx-text-fill: #eaeae9;
+}
+
+#buttonSignout{
+    -fx-background-color: Transparent;
+}
+
+#buttonInquiry{
+    -fx-background-color: Transparent;
+}
+
+#buttonDatabase{
+    -fx-background-color: Transparent;
+}
+
+#labelActivities{
+    -fx-font-family: 'Montserrat-Medium';
+    -fx-font-size: 15;
+    -fx-text-fill: #94918e;
+}
